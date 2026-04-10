@@ -18,7 +18,7 @@ public class HelloWorldController {
 
     @GetMapping
     public String helloWorld() {
-        return helloWorldService.helloWorld("Thales");
+        return helloWorldService.helloWorld("Thalesss");
     }
 
     @PostMapping("/{id}")
